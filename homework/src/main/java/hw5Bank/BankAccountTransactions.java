@@ -37,7 +37,7 @@ public class BankAccountTransactions {
     }
 
     public static ArrayList<BankAccount> searchForID(ArrayList<BankAccount> searchForArrayLiistBankAccaount, int ID) {
-        return searchForArrayLiistBankAccaount = (ArrayList<BankAccount>) searchForArrayLiistBankAccaount.stream().filter(bankAccount1 -> bankAccount1.getID()==ID).collect(Collectors.toList());
+        return searchForArrayLiistBankAccaount = (ArrayList<BankAccount>) searchForArrayLiistBankAccaount.stream().filter(bankAccount1 -> bankAccount1.getID() == ID).collect(Collectors.toList());
     }
 
 

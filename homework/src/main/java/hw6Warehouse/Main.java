@@ -41,9 +41,9 @@ public class Main {
     // Тебе надо у продуктов входящий в этих список в этой поданной хешмепе увеличить их количество на складе на 10 единиц
     public static void changeCount(HashMap<Integer, Product> hashMapWarehouse, List<Integer> listKey) {
         for (Integer key : listKey) {
-            if(hashMapWarehouse.containsKey(key)){
+            if (hashMapWarehouse.containsKey(key)) {
                 Product product = hashMapWarehouse.get(key);
-                product.setCountInWarehouse(product.getCountInWarehouse()+10);
+                product.setCountInWarehouse(product.getCountInWarehouse() + 10);
             }
 
         }
